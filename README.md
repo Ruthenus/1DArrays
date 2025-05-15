@@ -1,5 +1,6 @@
 # 1DArrays
-Week 20 Homework in IT STEP Academy (dynamic arrays)
+**Week 20 Homework in IT STEP Academy (dynamic arrays)**
+
 Реалізувати мінімум 6 функцій із 17, та виконати пункти 18-20:
 
 1. Додати функцію для видалення першого елемента масиву
