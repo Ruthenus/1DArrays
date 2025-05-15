@@ -1,34 +1,5 @@
 ﻿#include "1DArrays.h"
 
-// Прототипи функцій з прикладу 1d_array.cpp
-// https://gist.github.com/sunmeat/220a03a64a8b2ff4a33fc28c7b03c77e
-int* allocateArray(int size);
-void fillArrayWithRandomValues(int* ar, int size);
-void printArray(int* ar, int size);
-int* addElementAtEnd(int* ar, int& size, int value);
-int* addElementAtStart(int* ar, int& size, int value);
-int* removeElementAtEnd(int* ar, int& size);
-
-// Домашнє завдання – реалізувати мінімум 6 функцій із 17
-int* removeFirstElement(const int* ar, int& size);
-int* removeElementAtIndex(const int* ar, int& size, const int index);
-int* clearArray(const int* ar, int& size);
-int* removeElementsGreaterThan(int* ar, int& size, const int number);
-int* insertElementAtIndex(const int* ar, int& size, const int value,
-    const int index);
-int* fillNaturalSequence(int* ar, const int size);
-int* userFillArray(int* ar, const int size);
-int* sortAscending(int* ar, const int size);
-int* sortDescending(int* ar, const int size);
-void reverseArray(int* ar, const int start, const int end);
-int* rotateArray(int* ar, const int size, int rotation);
-double arrayArithmeticMean(const int* ar, const int size);
-int countEvenNumbers(const int* ar, const int size);
-long long multiplyAllElements(const int* ar, const int size);
-int findMaxElement(const int* ar, const int size);
-// const int* ar, тому що return newArray
-
-
 int main()
 {
     SetConsoleOutputCP(1251);
